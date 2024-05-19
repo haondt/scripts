@@ -14,8 +14,8 @@ After=docker.service
 Type=oneshot
 RemainAfterExit=yes
 WorkingDirectory={/path/to/docker_compose_file_dir}
-ExecStart=/usr/local/bin/docker compose up -d
-ExecStop=/usr/local/bin/docker compose down 
+ExecStart=docker compose up -d
+ExecStop=docker compose down 
 TimeoutStartSec=0
 
 [Install]
