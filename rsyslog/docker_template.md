@@ -12,10 +12,6 @@ sudo apt install rsyslog
 
 Create the template
 
-```sh
-sudo vim /etc/rsyslog.d/docker.conf
-```
-
 `/etc/rsyslog.d/docker.conf`
 
 ```
