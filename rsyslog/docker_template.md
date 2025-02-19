@@ -22,6 +22,12 @@ if $programname startswith 'docker-' then {
 }
 ```
 
+Restart rsyslog
+
+```sh
+sudo systemctl restart rsyslog
+```
+
 Point docker logs at syslog, this can be done per-container
 
 `docker-compose.yml`
