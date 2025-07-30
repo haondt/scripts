@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTMX Infinite Scroll Example</title>
+        <script src="https://unpkg.com/htmx.org@1.9.6"></script>
+        <style>
+            body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+            .item { padding: 15px; margin: 10px 0; background: #f5f5f5; border-radius: 5px; }
+            .loading { text-align: center; padding: 20px; color: #666; }
+            #items-container { min-height: 200px; }
+        </style>
+    </head>
+    <body>
+        <h1>HTMX Infinite Scroll Example</h1>
+        <p>This demonstrates the same infinite scroll pattern used in Hestia's IngredientsGrid component.</p>
+        {% include 'items.html' %}
+    </body>
+</html>
