@@ -1,0 +1,14 @@
+{
+  "output": "Hestia\\Hestia.UI\\wwwroot\\vendored",
+  "npm": {
+    "hyperscript.org": [
+      "dist/_hyperscript.min.js"
+    ],
+    "@floating-ui/dom": [
+      "./dist/floating-ui.dom.umd.js"
+    ],
+    "@floating-ui/core": [
+      "./dist/floating-ui.core.umd.js"
+    ]
+  }
+}
